@@ -1,5 +1,4 @@
-
-##Online Shopping Application Admin
+# Online Shopping Application Admin
 
 ## Technical skills
 Pure PHP + DatabaseAPI:PDO + Bootstrap + XAMMP
@@ -13,7 +12,6 @@ Pure PHP + DatabaseAPI:PDO + Bootstrap + XAMMP
 - Employees
 	- View individual employee information
 	- Review, add, modify and delete employee details
-
 ## Files/Folders Structure
 Here is a brief explanation of the template folder structure and some of its main files usage:
 
@@ -45,7 +43,7 @@ Here is a brief explanation of the template folder structure and some of its mai
 │   │   │   └──chart.js                 # Chart.js(https://www.chartjs.org)
 │   │   │   └──script.js                # Custom own chart using Chart.js.
 │   │   │   
-│   │   └── employees                   # Contains all employees pages.
+│   │   └── employees                   # Contains all employees pages.
 │   │   │   └── add.php                 # Create a new employee.
 │   │   │   └── delete.php              # Delete individual employee.
 │   │   │   └── index.php               # View all employees.
