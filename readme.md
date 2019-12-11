@@ -1,4 +1,5 @@
 # Online Shopping Application Admin
+> This project has been refactored by Laravel, if you are interested in it, click here: [Online-Shopping-Admin-Lararvel](https://github.com/maorutian/Online-Shopping-Admin-Lararvel)  
 
 ## Technical skills
 Pure PHP + DatabaseAPI:PDO + Bootstrap + XAMMP
