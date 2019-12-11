@@ -16,14 +16,16 @@ Pure PHP + DatabaseAPI:PDO + Bootstrap + XAMMP
 ## Files/Folders Structure
 Here is a brief explanation of the template folder structure and some of its main files usage:
 
+
+
 ```
 └── src                                 # Contains all template source files.
 │   └── private                         # Contains Classes and Libraries that should not be accessible by public.
-│   │   └── classes                     # .
-│   │   │   └── DatabaseObject.php      # Employee Class.
-│   │   │   └── Employee.php            # .
-│   │   │   └── Pagination.php          # Product Class.
-│   │   │   └── Product.php             # .
+│   │   └── classes                     # Contains al classes.
+│   │   │   └── DatabaseObject.php      # Database table parent Class.
+│   │   │   └── Employee.php            # Employee table Model.
+│   │   │   └── Pagination.php          # Manage pagination.
+│   │   │   └── Product.php             # Product table Model.
 │   │   │   └── Session.php             # Custom Session Class.
 │   │   │
 │   │   └── shared                      # Contains page layout.
@@ -41,7 +43,7 @@ Here is a brief explanation of the template folder structure and some of its mai
 │   │   │   └── bootstrap_admin.css     # Custom CSS for the project.
 │   │   │   
 │   │   └── js                          # Contains all JavaScript files.
-│   │   │   └──chart.js                 # Chart.js(https://www.chartjs.org)
+│   │   │   └──chart.js                 # Chart.js(https://www.chartjs.org)  
 │   │   │   └──script.js                # Custom own chart using Chart.js.
 │   │   │   
 │   │   └── employees                   # Contains all employees pages.
@@ -71,6 +73,7 @@ Here is a brief explanation of the template folder structure and some of its mai
 │
 └── readme_media                       # Resources for readme.md.
 ```
+
 
 
 ## Advantage
