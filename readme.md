@@ -74,13 +74,37 @@ Here is a brief explanation of the template folder structure and some of its mai
 
 
 ## Advantage
-1. good stucture: good to maintain
-2. easy debug
+1. Create inheritable database table code(DatabaseObject class) to make project more robust
+ - create, read, update, delete, select functions form 
+ all tables in database
+ - override  parent class's function to fit subclass(Employee class)
+ 
+2. user authentication (session class)
+ - keep track user authenticated state.
+ - track of when the user last logged in adn set maximum login age
+ - add access control to pages
+ - dispaly messages from session
+
+3. Back End Pagination
+ - manage large sets of data, show a subset of records
+ -  SQL LIMIT and SQL OFFSET
+ -  Good UI(previous, next and numbered page links)
+
+4. validation functions
+ - diverse  validation functions
+
+ It's a good idea to have code in one place, so that it gets edited only one time, and it helps you to maintain the code, and also keeps you from making careless mistakes. 
 
 ## Disadvantage
-1. Hard to do relationship
-2. Hard to do term work
-Therefore, I rebuild the project using LARAVEL  
+
+1. complicated relationship
+ - Due to I create DatabaseObject class, I do not want to only hard code for "joing", I still want one to many and many to many relationships are inheritable functions, but it is diffcult to do.
+2. Hard to do teamwork
+ - Different team member create same functions. Different team member use different model.
+
+
+Therefore, I refactored the project using LARAVEL. Click here: [Online-Shopping-Admin-Lararvel](https://github.com/maorutian/Online-Shopping-Admin-Lararvel)  
+
 
 ## Screen Views
 ![admin_home.png](readme_media/home.png)
